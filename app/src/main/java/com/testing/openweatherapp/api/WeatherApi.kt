@@ -12,6 +12,7 @@ interface WeatherApi {
     /**
      * Fetches the 5-day weather forecast (3-hour intervals) for the given city.
      *
+     *
      * @param city The name of the city (e.g., "New York").
      * @param apiKey The API key for authenticating with OpenWeatherMap.
      * @param units The unit system to use (e.g., "imperial", "metric", or "standard"). Defaults to "imperial".
